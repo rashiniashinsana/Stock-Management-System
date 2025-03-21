@@ -48,21 +48,21 @@ export const AddItemComponent = () => {
                         <label htmlFor="item_name"
                                className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Category</label>
                         <input type="text" id="item_name" onChange={(e) => setItemName(e.target.value)}
-                               className="w-full p-2 border rounded capitalize border-blue-900 dark:bg-gray-700 dark:text-white"
+                               className="w-full p-2 border rounded capitalize border-blue-600 dark:bg-gray-700 dark:text-white"
                                placeholder="Category" required/>
                     </div>
                     <div>
                         <label htmlFor="description"
                                className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Description</label>
                         <input type="text" id="description" onChange={(e) => setDescription(e.target.value)}
-                               className="w-full p-2 border rounded capitalize border-blue-900 dark:bg-gray-700 dark:text-white"
+                               className="w-full p-2 border rounded capitalize border-blue-600 dark:bg-gray-700 dark:text-white"
                                placeholder="Brand" required/>
                     </div>
                     <div>
                         <label htmlFor="price" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Price
                         </label>
                         <input type="number" id="price" onChange={(e) => setPrice(e.target.value)}
-                               className="w-full p-2 border rounded border-blue-900 dark:bg-gray-700 dark:text-white"
+                               className="w-full p-2 border rounded border-blue-600 dark:bg-gray-700 dark:text-white"
                                placeholder="1000" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required/>
                     </div>
 
@@ -70,7 +70,7 @@ export const AddItemComponent = () => {
                         <label htmlFor="qty"
                                className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Quantity</label>
                         <input type="number" id="qty" onChange={(e) => setQty(e.target.value)}
-                               className="w-full p-2 border rounded border-blue-900 dark:bg-gray-700 dark:text-white"
+                               className="w-full p-2 border rounded border-blue-600 dark:bg-gray-700 dark:text-white"
                                placeholder="10" required/>
                     </div>
                 </div>
