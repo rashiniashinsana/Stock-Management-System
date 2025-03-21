@@ -1,4 +1,4 @@
-# StockMate Web Application 📚🔔
+# StockMate Web Application 📦
 
 
 **Overview**  
