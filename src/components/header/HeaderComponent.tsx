@@ -1,14 +1,15 @@
 interface HeaderComponentProps {
-    section?: string
+    section?: string;
 }
 
-export const HeaderComponent = ({section}: HeaderComponentProps) => {
+export const HeaderComponent = ({ section }: HeaderComponentProps) => {
     return (
-        <>
-            <h1 className="mb-4 mt-2 text-center text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl">
-                <span
-                    className="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">{section}</span>
+        <div className="p-6 bg-gray-800 shadow-md rounded-r-xl">
+            <h1 className="text-center text-2xl font-bold text-white">
+                <span className="bg-gradient-to-r from-teal-400 to-blue-500 bg-clip-text text-transparent">
+                    {section}
+                </span>
             </h1>
-        </>
+        </div>
     );
 };
